@@ -1,0 +1,52 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+nav{
+     background-color: aquamarine;
+     height: 100vh;
+     width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.text{
+    display: grid;
+    width: 80%;
+    grid-template-areas:
+    "header"
+    "main"
+    "footer" ;
+    grid-template-rows: 
+    100px
+    1fr
+    100px;
+
+}
+header{
+     background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+main{
+    background-color: crimson;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    font-size: 2rem; 
+}
+
+
+
+footer{
+    background-color: coral;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
